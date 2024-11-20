@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="kanban.css" />
+  </head>
+  <body>
+    <!-- Toolbox Nav -->
+    <div class="toolbox-cont">
+      <!-- Color  Filter -->
+      <div class="toolbox-priority-cont">
+        <div class="lightpink color-box"></div>
+        <div class="lightgreen color-box"></div>
+        <div class="lightblue color-box"></div>
+        <div class="black color-box"></div>
+        </div>
+    
+      <!-- Action Button -->
+       <div class="Action-button-con">
+        <!-- add button -->
+        <div class="add-btn">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <!-- multi-btn  -->
+         <div class="multi-btn">
+          <i class="fa-solid fa-trash"></i>
+        </div>
+       </div>
+     </div>
+    
+    <!-- Tickets -->
+
+     <div class="main-cont">
+
+    <!--  <div class="ticket-cont">
+        <div class="ticket-color-cont"></div>
+        <div class="ticket-id">1234567</div>
+        <div class="ticket-task">demo task</div>
+        <div class="ticket-lock">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+      </div>-->
+
+     </div> 
+     <!-- model  Task  Area -->
+        <div class="model-cont" >
+      
+       <textarea name="" class="textArea-cont" placeholder="Enter yout Task" ></textarea>
+      
+       <div class="priority-colors-container" tabindex="0">
+        
+          <div class="  lightpink priority-color active"></div>
+        <div class="lightgreen priority-color"></div>
+        <div class="lightblue priority-color"></div>
+        <div class="black priority-color "></div>
+       </div>
+
+      </div>
+    
+     
+     <script src="kanban.js"></script>
+    <script
+      src="https://kit.fontawesome.com/bd78b86a04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+
+
+  </body>
+</html>
